@@ -1,0 +1,83 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Set a default font for the entire page */
+}
+
+/* Styling the main page */
+.main {
+    background-color: darkgrey;
+}
+
+/* Styling the header */
+.header {
+    background-color: #ffff00;
+    text-align: center;
+    margin: 0 100px; /* Combined margin-left and margin-right */
+    padding: 20px 0; /* Added padding for better spacing */
+}
+
+/* Styling the main title */
+.main-title {
+    color: #020249;
+    font-size: 24px; /* Corrected: font-weight was mistakenly set as 24px, changed to font-size */
+    font-weight: bold; /* Set appropriate weight for the title */
+    font-family: Helvetica, Arial, Georgia, sans-serif; /* Added sans-serif as fallback */
+    margin: 0;
+}
+
+/* Styling the recipe list */
+.recipe-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0 100px; /* Combined margin-left and margin-right */
+}
+
+/* Styling each list item */
+.recipe-item {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    margin: 10px 0; /* Added space between each list item */
+}
+
+/* Styling the recipe links */
+.recipe-link {
+    color: #020249; /* Changed to match the color scheme */
+    text-decoration: none; /* Removed default underline */
+    transition: color 0.3s; /* Smooth hover effect */
+}
+
+.recipe-link:hover {
+    color: #ffcc00; /* Added hover effect to the links */
+}
+
+/* Styling the recipe images */
+.recipe-image {
+    border-radius: 10px; /* Rounded corners */
+    display: block; /* Block-level element for better centering */
+    margin: 20px auto; /* Center the image and add margin */
+    width: 50%; /* Image width relative to container */
+}
+
+/* Styling the description section */
+/* .discription {
+    color: #ffffff;
+    text-align: center;
+    color: #020249;
+    font-family: Helvetica, Arial, Georgia;
+} */
+
+/* Styling the description section */
+.discription {
+    color: #020249;
+    text-align: left;
+    font-family: Helvetica, Arial, Georgia, sans-serif;
+    margin-left: 15%; /* Added space around the description */
+}
+
+/* Styling the summary section */
+.summary {
+    margin: 0 200px; /* Combined margin-left and margin-right */
+    text-align: justify; /* Makes text easier to read by spreading it out */
+}
